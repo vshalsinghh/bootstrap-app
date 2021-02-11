@@ -19,15 +19,12 @@ const Header = () => {
 					<div className='profile-image'>
 					<img  className='profile-image' src='https://i.pinimg.com/474x/77/5b/91/775b91d4b1bfcac2aa3292b47763c1b1.jpg' />
 					</div>
-					<h2>Book 30 Mins Free Consultation</h2>
-					<h5>Take the first step towards your study abroad journey.
-					 Get your free profile evaluation by your experts and kickstart 
-					 your journey. </h5>
+					<h2>Sign Up</h2>
 					 <form className='form'>
 					 <input type='text' placeholder='Enter Your Name' />
 					 <input type='text' placeholder='Enter Your Email' />
-					 <input type='number' placeholder='Enter Your Phone no' />
-					 <Button type='submit' className='submit-button'>Get Started</Button>
+					 <input type='password' placeholder='Enter Your Password' />
+					 <Button type='submit' className='submit-button'>Sign Up</Button>
 					 </form>
 					 <h1 className='close' onClick={() => setmodal(false)}>X</h1>
 

@@ -27,7 +27,7 @@ const Body = () => {
 					 <form className='form'>
 					 <input type='text' placeholder='Enter Your Name' />
 					 <input type='text' placeholder='Enter Your Email' />
-					 <input type='number' placeholder='Enter Your Phone no' />
+					 <input type='tel' placeholder='Enter Your Phone no' />
 					 <Button type='submit' className='submit-button'>Get Started</Button>
 					 </form>
 					 <h1 className='close' onClick={() => setmodal(false)}>X</h1>
