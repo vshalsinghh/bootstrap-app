@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/bootstrap";
+
+.card{
+	background-size:cover;
+	height:90vh;
+	border-radius:none;
+	border:none;
+}
+.card-img{
+	height:90vh;
+}
+.card-img-overlay{
+	background-color:rgba(61, 61, 61,.6);
+	height:90vh;
+	color:#fff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	.container{
+		width:600px;
+		display:flex;
+		flex-direction: column;
+		text-align:center;
+		justify-content:space-between;
+		align-items:center;
+		height:300px;
+		padding:1rem;
+		.text{
+			width:500px;
+		}
+		.input-container{
+			display:flex;
+			align-items:center;
+			width:100%;
+			.icon-search{
+				margin-right:-2.5rem;
+				z-index:1;
+				cursor:pointer;
+				font-size:24px;
+			}
+
+			.hero-input{
+			padding:1.5rem 3rem;
+			border-radius:2px;
+			border:none;
+			width:100%;
+			font-size:18px;
+			}
+			.icon-next{
+				margin-left:-2.5rem;
+				cursor:pointer;
+				font-size:24px;
+			}
+		}
+		
+	}
+
+}

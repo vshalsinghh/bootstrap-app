@@ -1,0 +1,141 @@
+.body{
+	padding:1rem 2rem;
+	margin-bottom:10rem;
+	.mentors{
+		padding:1rem;
+	}
+	.right-step{
+		padding:1rem;
+		.right-step-content{
+			display:flex;
+			padding:2rem;
+			justify-content:space-between;
+				align-items:center;
+			.content-card{
+				padding:1rem;
+				height:400px;
+				margin:1rem 3rem;
+				display:flex;
+				flex-direction: column;
+				justify-content:space-between;
+				border:1px solid #ebebeb;
+				.card-head{
+					text-align:center;
+				}
+
+			}
+		}
+	}
+	.consult-us{
+		display:flex;
+		padding:2rem 1rem;
+		align-items:center;
+		justify-content:center;
+		margin-bottom: 3rem;
+		.consult{
+			width:40%;
+			height:70px;
+			border-radius:2px;
+			margin:1rem 2rem;
+			background-color:#000;
+			color:#fff;
+			border:none;
+			a{
+				color:#fff;
+				font-size:20px;
+			}
+		}
+	}
+	.section{
+		height:80vh;
+		display:flex;
+		margin-bottom:1rem;
+		padding:1rem ;
+		justify-content:space-between;
+		.text{
+			width:20%;
+			text-align:left;
+			line-spacing:2rem;
+		}
+		.section-img{
+			width:70%;
+			height:100%;
+			background-color:#000;
+		}
+
+	}
+	.section2{
+		.text{
+			width:60%;
+			.section2-content{
+				margin-top:100px;
+				display:grid;
+				grid-template-columns:1fr 1fr;
+				grid-gap:2rem;
+			}
+		}
+		.section-img{
+			width:30%;
+		}
+	}
+
+}
+.text{
+	text-align:center;
+}
+.modal{
+	background-color:rgba(0,0,0,0.6);
+	
+	
+}
+.showmodal{
+	display:block;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	.modal-content{
+		border:none;
+		height:500px;
+		width:400px;
+		background-color:#fff;
+		padding:2rem;
+		display:flex;
+		flex-direction: column;
+		align-items:center;
+		text-align:center;
+		justify-content:space-between;
+		overflow:scroll;
+		.profile-image{
+			margin-bottom:2rem;
+			width:100px;
+			height:100px;
+			border-radius:50%;
+		}
+		.form{
+			display:flex;
+			flex-direction: column;
+			justify-content:space-between;
+			align-items:center;
+			padding:2rem 2rem;
+			input{
+				margin-bottom:2rem;
+				border:none;
+				border-bottom:1px solid #ebebeb;
+			}
+			.submit-button{
+				width:100%;
+				background-color:#000;
+				color:#fff;
+				border:none;
+			}
+
+		}
+		.close{
+			right:0;
+				position:absolute;
+				margin-right:2rem;
+				margin-left:auto;
+				cursor:pointer;
+			}
+	}
+}

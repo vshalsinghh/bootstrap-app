@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Button from 'react-bootstrap/Button';
+import Header from './components/header/header';
+import Heropage from './components/hero-page/hero-page';
+import Carousalcontainer from './components/carousal/carousal';
+import Compimg from './components/compimg/compimg';
+import Body from './components/body/body';
+import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Heropage />
+      <Carousalcontainer heading='Results Speak The Loudestt'/>
+      <Compimg />
+      <Body />
+      <Footer />
     </div>
   );
 }

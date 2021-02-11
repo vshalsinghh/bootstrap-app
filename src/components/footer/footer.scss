@@ -1,0 +1,33 @@
+.footer{
+	bottom:0;
+	width:100%;
+	background-color:#002541;
+	height:400px;
+	padding:2rem 4rem;
+	color:#fff;
+	margin-top:20rem;
+	.footer-head {
+		border-bottom:1px solid #fff;
+		height:5rem;
+		ul{
+			list-style-type: none;
+			display:block;
+		}
+		ul li{
+			background-color:#002541;
+			float:left;
+			margin-right:2rem;
+			cursor:pointer;
+			font-size:20px;
+		}
+		ul li:hover{
+			text-decoration: underline;
+		}
+		}
+		hr{
+			color:#fff;
+			background-color:#fff;
+			width:100%;
+			display:block;
+		}
+}

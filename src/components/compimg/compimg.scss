@@ -1,0 +1,23 @@
+.study{
+	padding:1rem;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	.study-loc{
+		cursor:pointer;
+	}
+}
+.images{
+	background-color:#ebebeb;
+	width:100%;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap:2rem;
+	cursor:pointer;
+	padding:2rem;
+	place-items:center;
+}
+
+img{
+	height:50px;
+}

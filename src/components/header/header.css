@@ -1,0 +1,12 @@
+.navbar{
+	background-color: #002541;
+	color:#fff !important;
+}
+.navbar nav a{
+	background-color: yellow;
+}
+.signup{
+	border-radius: unset;
+	padding:.2rem 1rem; 
+	margin:.2rem 1rem;
+}
