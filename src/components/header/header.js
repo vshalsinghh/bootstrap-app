@@ -36,7 +36,7 @@ const Header = () => {
 
 	return (
 		<Navbar className='navbar' collapseOnSelect expand="lg" variant="dark">
-		  <Navbar.Brand href="#home">leverage-edu</Navbar.Brand>
+		  <Navbar.Brand href="/">leverage-edu</Navbar.Brand>
 		  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 		  <Navbar.Collapse id="responsive-navbar-nav">
 		    <Nav className='ml-auto'>
